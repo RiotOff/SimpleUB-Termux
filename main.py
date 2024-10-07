@@ -115,7 +115,6 @@ async def info_command(_, message):
     current_time = time.time()
     uptime_seconds = int(round(current_time - start_time))
     uptime = str(timedelta(seconds=uptime_seconds))
-    cpu = psutil.cpu_percent(interval=1)
     ram = psutil.virtual_memory().percent
     system_info = platform.system()
     system_release = platform.release()
@@ -137,7 +136,7 @@ async def info_command(_, message):
                  f"**👤 ForMe (Версия создателя)**\n\n"
                  f"**⌨️ Префикс:** «{prefix}»\n"
                  f"**⌛ Аптайм:** {uptime}\n\n"
-                 f"**⚡️ Использование CPU:** __~{cpu} %__\n"
+                 f"**⚡️ Использование CPU:** __~NaN %__\n"
                  f"**💼 Использование RAM:** __~{ram} MB__\n"
                  f"**✌️ {system_info} {system_release} ({architecture})**")
     
