@@ -1,0 +1,10 @@
+pyrogram
+importlib
+psutil
+requests
+datetime
+asyncio
+uuid
+g4f
+simpleeval
+gtts
