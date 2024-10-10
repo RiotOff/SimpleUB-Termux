@@ -16,3 +16,5 @@
 <b>Linux</b>
 <br>
 <code>sudo apt update && sudo apt full-upgrade && sudo apt install python3 git && git clone https://github.com/RiotOff/SimpleUB && cd SimpleUB && python3 -m venv .venv && source .venv/bin/actrivate && pip3 install -r requirements.txt</code>
+
+Thanks Telery Userbot (https://t.me/telery_userbot2) for source!
