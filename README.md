@@ -15,4 +15,4 @@
 <br>
 <b>Linux</b>
 <br>
-<code>sudo apt update && sudo apt full-upgrade && sudo apt install python3 git && git clone https://github.com/RiotOff/SimpleUB-Termux && cd SimpleUB && pip3 install -r requirements.txt</code>
+<code>sudo apt update && sudo apt full-upgrade && sudo apt install python3 git && git clone https://github.com/RiotOff/SimpleUB && cd SimpleUB && pip3 install -r requirements.txt</code>
