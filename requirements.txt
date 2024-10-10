@@ -8,3 +8,4 @@ uuid
 g4f
 simpleeval
 gtts
+tgcrypto
