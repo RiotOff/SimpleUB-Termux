@@ -21,7 +21,7 @@
 <b>Linux:</b>
 
 <br>
-<code>sudo apt update && sudo apt full-upgrade && sudo apt install python3 git && git clone https://github.com/RiotOff/SimpleUB && cd SimpleUB && cd SimpleUB && python3 -m venv .venv && source .venv/bin/activate && pip3 install -r requirements.txt</code>
+<code>sudo apt update && sudo apt full-upgrade && sudo apt install python3 git && git clone https://github.com/RiotOff/SimpleUB && cd SimpleUB && python3 -m venv .venv && source .venv/bin/activate && pip3 install -r requirements.txt</code>
 <br>
 <br>
 <br>
